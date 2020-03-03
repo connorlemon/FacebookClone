@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Sidebar1 from './Sidebar1';
+import Sidebar2 from './Sidebar2';
 import CreatePost from './CreatePost';
 import Stories from './Stories';
 import Post from './Post';
@@ -7,36 +9,29 @@ import seedData from '../seed.js';
 
 class Main extends Component{
     render(){
+        const userData = seedData.user;
+        const newsFeed = seedData.posts.map((post, i)=>{
+            return <Post key={i} postData={post} />
+        });
         return(
             <div class="row">
-                <div className="col-sm-3">
-                    <h6>Sidebar</h6>
+                <div className="col-sm-2">
+                    <Sidebar1 user={userData}/>
                 </div>
                 <div className="col-sm-6">
                     <CreatePost />
                     <Stories />
-                    <Post postData={seedData.posts.post1}/>
-                    <Post postData={seedData.posts.post2}/>
-                    <Post postData={seedData.posts.post3}/>
-                    <Post postData={seedData.posts.post4}/>
-                    <Post postData={seedData.posts.post5}/>
-                    <Post postData={seedData.posts.post6}/>
-                    <Post postData={seedData.posts.post7}/>
-                    <Post postData={seedData.posts.post8}/>
-                    <Post postData={seedData.posts.post9}/>
-                    <Post postData={seedData.posts.post10}/>
-                    <Post postData={seedData.posts.post11}/>
-                    <Post postData={seedData.posts.post12}/>
-
+                    {newsFeed}
                 </div>
-                <div className="col-sm-3">
-                    <h6>Sidebar</h6>
+                <div className="col-sm-2">
+                    <Sidebar2 />
+                </div>
+                <div className="col-sm-2">
+                    <p></p>
                 </div>
             </div>
         )
     }
 }
-
-console.log(seedData);
 
 export default Main;

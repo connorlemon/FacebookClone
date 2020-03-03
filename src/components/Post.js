@@ -6,6 +6,19 @@ import { faThumbsUp, faComment, faShareSquare } from '@fortawesome/free-regular-
 class Post extends Component{
     render(){
         const post = this.props.postData;
+        let postContent;
+        if(post.postImg){
+            postContent = (
+                <span>
+                <p className="postText">{post.postText}</p>
+                <img className="postImg" src={post.postImg} />
+                </span>
+            )
+        } else {
+            postContent = (
+                <p className="postText">{post.postText}</p>
+            )
+        }
         return(
             <div className="container postContainer">
                 <div id="postContainer2" className="container">
@@ -14,10 +27,10 @@ class Post extends Component{
                         <h6 className="postUser">{post.userName}</h6>
                         <p className="postTime">{post.postTime}  - <FontAwesomeIcon icon={faUserFriends}/></p>
                     </div>
-                    <p className="postText">{post.postText}</p>
-                    <img className="postImg" src={post.postImg} />
+                    {postContent}
                 </div>
                 <div className="postInteractions mt-1">
+                    {/* post.postLikes + var to make 'Like' functionality work */}
                     <h6 className="postLikes">{post.postLikes}</h6><h6 className="postStatus">{post.postComments} Comments  {post.postShares} Shares</h6>
                 </div>
                 <div className="postBtns">

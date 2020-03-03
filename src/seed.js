@@ -3,8 +3,8 @@ const seedData = {
         userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9',
         userName: 'Connor Lemon'
     },
-    posts: {
-        post1: {
+    posts: [
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9',
             userName: 'Connor Lemon',
             postTime: '2 hrs',
@@ -14,7 +14,7 @@ const seedData = {
             postComments: '22',
             postShares: '4'
         },
-        post2: {    
+        {    
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/68895440_1633157493481392_2906082396979855360_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_oc=AQmkpKNmhf1AJJLkET4bemhOkoQN2a6U1uA0vqsNIz8V7MoH09QRJzymwLMh6AxseSGAc2jeMfo7hYYLGSqm4Q2w&_nc_ht=scontent-lax3-1.xx&oh=b1658f48c01c8831029ac8601dfe52bf&oe=5EF6AE79',
             userName: 'Ido Tadmor',
             postTime: '7 mins',
@@ -24,7 +24,7 @@ const seedData = {
             postComments: '43',
             postShares: '2'
         },
-        post3: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/p960x960/24955483_10155517354778937_6736181428637666363_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQk-jLMsAV3hR8QaRnbwDKd9FxBjIZ6bUXZ9Dw_e-YiL9pExSftQBCPQgtpqgAtA7xZt6-YO7r0m_1_7Of4EtNEc&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=63891d95cf7be5c648c268c973b84024&oe=5EB8FCD7',
             userName: 'Derek Lemon',
             postTime: '3 days',
@@ -33,7 +33,7 @@ const seedData = {
             postComments: '12',
             postShares: '1'
         },
-        post4: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14963121_1507585872590727_1033546933444445095_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_oc=AQnOlEUS71CYC9Whzn00BZTQuMFopB2zPOa83Dmc0AKOAAJP263BJ-QSTdmRWBPTdcM&_nc_ht=scontent-lax3-1.xx&oh=29f1ae9e8f0744eadb84c86260a83696&oe=5E808591',
             userName: 'Sophia Lang',
             postTime: '4 mins',
@@ -43,7 +43,7 @@ const seedData = {
             postComments: '4',
             postShares: '0'
         },
-        post5: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9',
             userName: 'Connor Lemon',
             postTime: 'February 22',
@@ -52,7 +52,7 @@ const seedData = {
             postComments: '31',
             postShares: '16'
         },
-        post6: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/84325979_10216200136897397_7919836203954733056_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_oc=AQml2P7fRBa2RhaCpGso0q3g-mS34ruSXx6kjUfwcuIwqSZ9xXVZevRj2dw3UhbH_co&_nc_ht=scontent-lax3-1.xx&oh=4156f16922d71e9379cb0d2bbefd87e4&oe=5E84B909',
             userName: 'Elayne Le Monde',
             postTime: 'February 2',
@@ -62,7 +62,7 @@ const seedData = {
             postComments: '6',
             postShares: '12'
         },
-        post7: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/65394840_10214918250897509_5365259943433732096_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_oc=AQkpNfKkECVj5NdRPBXhDtT_8y19e7v-35qw1GB5Rowd99mUiNFk_EyNalUa8T6BF6s&_nc_ht=scontent-lax3-1.xx&oh=3a1d998e347c36c7df1b6566ac964cbc&oe=5E870FC6',
             userName: 'Kira Bartoli',
             postTime: 'December 13, 2019',
@@ -72,7 +72,7 @@ const seedData = {
             postComments: '4',
             postShares: '0'
         },
-        post8: {    
+        {    
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/13256465_10206091784317954_6033935480782952279_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_oc=AQn774br-CYwOu8-ggn-8CyF8WiLj1vZMQnFbHRwfgZqxDo-cuGajhmffSWpDpFK7nU&_nc_ht=scontent-lax3-1.xx&oh=e31d4e64907d9876b84f1ec8397892f0&oe=5E97221B',
             userName: 'Josh Bell',
             postTime: 'December 2, 2019',
@@ -82,7 +82,7 @@ const seedData = {
             postComments: '16',
             postShares: '2'
         },
-        post9: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/p960x960/24955483_10155517354778937_6736181428637666363_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQk-jLMsAV3hR8QaRnbwDKd9FxBjIZ6bUXZ9Dw_e-YiL9pExSftQBCPQgtpqgAtA7xZt6-YO7r0m_1_7Of4EtNEc&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=63891d95cf7be5c648c268c973b84024&oe=5EB8FCD7',
             userName: 'Derek Lemon',
             postTime: 'November 30, 2019',
@@ -91,7 +91,7 @@ const seedData = {
             postComments: '3',
             postShares: '1'
         },
-        post10: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/s960x960/16423087_10212558780423480_1821421932976890140_o.jpg?_nc_cat=102&_nc_sid=7aed08&_nc_oc=AQlOiDtwEF-r1AAFjV39aNoMYaWJLbp2B-noZ4zAMTi_mZdOk-GasNFoogplFDbXqxE&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=8b5d033eab2f1c4bb62bcb7fa1b96b96&oe=5E97B85C',
             userName: 'Charles Watson',
             postTime: 'September 22, 2019',
@@ -101,7 +101,7 @@ const seedData = {
             postComments: '4',
             postShares: '0'
         },
-        post11: {
+        {
             userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9',
             userName: 'Connor Lemon',
             postTime: 'September 10, 2019',
@@ -111,7 +111,7 @@ const seedData = {
             postComments: '3',
             postShares: '4'
         },
-        post12: {
+        {
             userImg: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/23473074_10155031875776961_8482140412038626648_n.jpg?_nc_cat=1&_nc_sid=85a577&_nc_oc=AQkMF0hY2QMx6C3SjvY8rHPvG_Xx-QTMbeToEoZBJNc1flc2QabV0AZr9FqxUkB2UOE&_nc_ht=scontent-lax3-2.xx&oh=a1b9d666b3221eca86204df786a9220e&oe=5E997906',
             userName: 'Bill Gates',
             postTime: 'March 3, 2018',
@@ -121,7 +121,7 @@ const seedData = {
             postComments: '111',
             postShares: '121'
         }
-    }
+    ]
 }
 
 export default seedData;
