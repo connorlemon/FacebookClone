@@ -20,8 +20,9 @@
 }
 
 body {
-  width: 90%;
   margin: auto;
+  margin-left: 5%;
+  margin-right: 0;
   font-size: 14px;
   margin-top: 60px;
   background-color: rgb(233, 235, 238);
@@ -33,6 +34,10 @@ body {
 
 .col-sm-6{
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .navbar-nav {
@@ -172,7 +177,7 @@ div .col-sm-1 {
   border-radius: 50%;
   margin-bottom: 45px;
   margin-right: 8px;
-  margin-left: 10px;
+  margin-left: -8px;
 }
 
 #createTextArea {
@@ -352,10 +357,11 @@ div .storyArea .container .row{
 
 .postUserImg{
   height: 2.1rem;
+  width: 2.1rem;
   border-radius: 50%;
   margin-bottom: 18px;
   margin-right: 4px;
-  margin-left: 13px;
+  margin-left: 15px;
 }
 
 .postUserImg:hover{
@@ -459,6 +465,7 @@ div .storyArea .container .row{
 
 #sideUserImg{
   height: 1rem;
+  margin-left: 13px;
   margin-right: 4px;
   margin-bottom: 4px;
 }
@@ -564,4 +571,76 @@ div .storyArea .container .row{
   font-size: 14px;
   margin-left: 4px;
   margin-right: 12px;
+}
+
+/* Contacts */
+
+#contactsScroll{
+  height: 95%;
+  position: fixed;
+  top: 42px;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  width: 16.6666%;
+  margin-bottom: 15px;
+  border-left: 1px solid rgba(0, 0, 0, .1);
+}
+
+#sideBar3{
+  margin-top: -25px;
+  padding-top: 25px;
+  padding-left: 0;
+}
+
+.contactSidebar{
+  padding-left: 0;
+}
+
+.contact:hover{
+  cursor: pointer;
+}
+
+.contact:hover #contactLeft, .contact:hover {
+  background-color: rgb(221, 223, 226);
+}
+
+#s3Label{
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 4px;
+}
+
+.contact{
+  text-align: left;
+}
+
+#contactLeft{
+  float: left;
+  width: 95%;
+}
+
+.contactImg{
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  margin-left: 6px;
+}
+
+.contactName{
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.contactOnline{
+  float: right;
+  height: 100%;
+  width: 5%;
+  font-size: 6px;
+  padding-top: 15px;
+  padding-left: 8px;
+  color: rgb(66, 183, 42);
 }

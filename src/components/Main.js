@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar1 from './Sidebar1';
 import Sidebar2 from './Sidebar2';
+import Sidebar3 from './Sidebar3';
 import CreatePost from './CreatePost';
 import Stories from './Stories';
 import Post from './Post';
@@ -18,16 +19,16 @@ class Main extends Component{
                 <div className="col-sm-2">
                     <Sidebar1 user={userData}/>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-5">
                     <CreatePost />
                     <Stories />
                     {newsFeed}
                 </div>
-                <div className="col-sm-2">
+                <div className="col-sm-3">
                     <Sidebar2 />
                 </div>
-                <div className="col-sm-2">
-                    <p></p>
+                <div className="col-sm-2" id="contactsScroll">
+                    <Sidebar3 />
                 </div>
             </div>
         )
