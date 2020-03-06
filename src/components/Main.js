@@ -21,7 +21,7 @@ class Main extends Component{
                 <div className="col-sm-2">
                     <Sidebar1 user={userData}/>
                 </div>
-                <div className="col-sm-5">
+                <div className="col-sm-5" id="mainScroll">
                     <CreatePost />
                     <Stories />
                     {newsFeed}

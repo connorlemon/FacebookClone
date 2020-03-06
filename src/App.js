@@ -10,8 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Route path = "/" component={NavBar} />
-        <Route path="/main" component={Main} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/" component={Main} />
       </div>
     </Router>
   );

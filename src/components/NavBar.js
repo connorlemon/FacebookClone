@@ -22,7 +22,7 @@ class NavBar extends Component{
                                 </div>  
                             </form></li>
                             <div className="container justify-content-end mr-auto" >
-                                <li><Link to="/profile" className="nav-item nav-link pb-1 navText "><img id="userImg" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9"/>Connor</Link></li>
+                                <li><Link to="/main" className="nav-item nav-link pb-1 navText "><img id="userImg" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9"/>Connor</Link></li>
                                 <li><Link to="/main" className="nav-item nav-link pb-1 mb-0 navText">Home</Link></li>
                                 <li><Link to="/main" className="nav-item nav-link pb-1 mb-0 navText">Create</Link></li>
                                 <li><Link to="/main" className="nav-item nav-link pb-1"><FontAwesomeIcon className="navIcon" icon={faUserFriends} /></Link></li>
