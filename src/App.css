@@ -32,6 +32,14 @@ body {
   padding: 0;
 }
 
+.col-sm-3{
+  margin-left: 15px;
+}
+
+.col-sm-5{
+  padding: 0;
+}
+
 .col-sm-6{
   padding: 0;
 }
@@ -425,11 +433,13 @@ div .storyArea .container .row{
 .postLikes{
   display: inline-block;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .postStatus{
   float: right;
   font-weight: 400;
+  cursor: pointer;
 }
 
 
@@ -644,3 +654,333 @@ div .storyArea .container .row{
   padding-left: 8px;
   color: rgb(66, 183, 42);
 }
+
+/* Sidebar 2 */
+
+.col-sm-3{
+  padding-left: 0;
+}
+
+.sideBar2{
+  width: 325px;
+  text-align: left;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  margin-left: -2px;
+  margin-bottom: 200px;
+}
+
+.yourPageContainer{
+  padding: 0;
+  background-color: white;
+  margin-bottom: 13px;
+}
+
+#yourPageContainer2{
+  margin-top: 0;
+  padding: 0;
+  padding-bottom: 12px;
+  display: flex;
+  border-bottom: 1.5px solid rgba(0, 0, 0, .1);
+}
+
+#yourPageTitle{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: -2px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, .1);
+}
+
+#yourPageLabel{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: white;
+  color: rgba(0, 0, 0, .5);
+  border: none;
+}
+
+#yourPageEllipsis{
+  background-color: white;
+  cursor: pointer;
+  color: rgba(0, 0, 0, .3);
+  padding-bottom: 4px;
+  border: none;
+}
+
+#ypIcon1{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.yourPageUserImg{
+  height: 3rem;
+  width: 3rem;
+  margin: 11px 4px 12px 12px;
+  display: inline-block;
+}
+
+.hoverPointer{
+  cursor: pointer;
+}
+
+
+
+.yourPageUser{
+  padding-bottom: 4px;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(56, 88, 162);
+  border: none;
+}
+
+.yourPageUser:hover{
+  text-decoration: underline;
+}
+
+.yourPageSubText{
+  padding-top: 3px;
+  margin-left: 11px;
+  margin-bottom: 5px;
+  font-size: 13.5px;
+  color: rgb(97, 104, 136);
+}
+
+.yourPageInteractions{
+  width: 95%;
+  margin: auto;
+  border-bottom: 1.5px solid rgba(0, 0, 0, .1);
+}
+
+.yourPageIcon{
+  font-size: 17px;
+  margin-right: 2px;
+  color: rgba(33, 37, 41, .75);
+}
+
+.yourPageBtn{
+  width: 25%;
+  background: transparent;
+  color: rgb(97, 104, 136);
+  border: none;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.yourPageBtn:hover{
+  color: rgb(80, 70, 87);
+  background-color: white;
+}
+
+.ypBtnIcon{
+  display: block;
+  margin: auto;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.yourPageBtns{
+  width: 96%;
+  margin: auto;
+  text-align: center;
+}
+
+.yourPageBtn2{
+  margin: 10px 0;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  width: 33.333%;
+  border-radius: 3px;
+  background-color: white;
+  border: .5px solid rgb(220, 222, 225);
+}
+
+.ypBtn2Selected{
+  background-color: rgb(220, 222, 225);
+  font-weight: 600;
+}
+
+h4{
+  font-size: 22px;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.yourPageText{
+  width: 95%;
+  text-align: center;
+  padding-bottom: 0px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, .1);
+}
+
+#ypInfoText{
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.createPromoBox{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: -3px;
+}
+
+#promoBtn{
+  width: 85%;
+  height: 30px;
+  padding: 0;
+  background-color: rgb(245, 246, 247);
+  font-weight: 600;
+}
+
+.promoBtns:hover{
+  border: .5px solid rgb(220, 222, 225);
+  background-color: rgb(235, 237, 240);
+}
+
+#ypBtnIcon1{
+  font-size: 15px;
+  padding-right: 3px;
+}
+
+#promoBtn2{
+  width: 10%;
+  height: 30px;
+  background-color: rgb(245, 246, 247);
+}
+
+.ypBtnIcon2{
+  font-size: 18px;
+  margin-top: -8px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+}
+
+/* Recently Viewed */
+
+#rvBox{
+  background-color: white;
+  padding: 0;
+  padding-top: 3px;
+  margin-bottom: 13px;
+}
+
+#rvLabel{
+  background-color: transparent;
+  padding-left: 12px;
+  padding-bottom: 6px;
+  border: 0;
+}
+
+#rvIcon1{
+  font-size: 14px;
+  margin-right: 4px;
+  color: rgba(0, 0, 0, .6);
+}
+
+.rvImagesBox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+  margin-top: 0;
+  margin-left: 2px;
+  z-index: -2;
+}
+.rvImage{
+  display: inline-block;
+  width: 7rem;
+  height: 6.5rem;
+  margin-top: 5px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.rvImgText{
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  margin-top: -24px;
+  margin-left: 12px;
+}
+
+#rvSeeMore{
+  padding-top: 0;
+  padding-bottom: 14px;
+  margin-left: 8px;
+  color: rgb(56, 88, 162);
+}
+
+#rvSeeMore:hover{
+  text-decoration: underline;
+}
+
+
+
+/* Advertisement */
+
+#adBox{
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 0;
+  padding-top: 3px;
+}
+
+#adBox2{
+  margin: 0;
+}
+
+#adLabel{
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 5px;
+}
+
+#adCreateAd{
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 0;
+  color: rgb(56, 88, 162);
+  border: none;
+}
+
+#adCreateAd:hover{
+  text-decoration: underline;
+}
+
+#adImg{
+  width: 95%;
+  margin: auto;
+}
+
+#adTitle{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(56, 88, 162);
+  display: block;
+  border: none;
+  margin-top: 4px;
+  padding-bottom: 2px;
+}
+
+#adTitle:hover{
+  text-decoration: underline;
+}
+
+#adText{
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 24px;
+}
+

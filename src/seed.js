@@ -1,7 +1,9 @@
 const seedData = {
     user: {
         userImg: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/78619193_10214884544731469_6401466235757789184_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQl7niJyFK-r6SXOQN1CCO5CO5ke06wTen3LhrWMlscX5JjctNXLMcZ2cQn6l0wS9lWYNWPZUo7BF_Zz5KlrAnbt&_nc_ht=scontent-lax3-1.xx&oh=c8184bba4095524f8efaeed9a059dc60&oe=5EE940F9',
-        userName: 'Connor Lemon'
+        userName: 'Connor Lemon',
+        yourPageUserName: 'Connor Lemon - Developer',
+        yourPageImg: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/66691847_2146589048800403_3408800699704672256_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_oc=AQmV4wDWNSvnxhwFvCgN-8HrOUrWovjbZWqZJKTwL5YGk7LlM4TD3OHpfTmYTx9xVXE&_nc_ht=scontent-lax3-2.xx&oh=dde6616884c3564edcd7b37f2a5755fc&oe=5E958E93'
     },
     posts: [
         {
@@ -234,6 +236,36 @@ const seedData = {
             userName: 'Roberto Espinosa'
         },
 
+    ],
+    recentlyViewed: [
+        {
+            img: 'https://i.ytimg.com/vi/MKlVle6ignU/maxresdefault.jpg',
+            price: '$1200'
+        },
+        {
+            img: 'https://s-ec.bstatic.com/images/hotel/max1024x768/153/153329643.jpg',
+            price: '$1450'
+        },
+        {
+            img: 'https://media-cdn.tripadvisor.com/media/photo-s/01/01/66/3d/the-tree-house-back.jpg',
+            price: '$1550'
+        },
+        {
+            img: 'http://i2.cdn.cnn.com/cnnnext/dam/assets/161125161011-the-nook-blue-forest-super-169.jpg',
+            price: '$1100'
+        }
+    ],
+    ads: [
+        {
+            img: 'http://3.bp.blogspot.com/-luJwLZgfKKU/UbScOAeHoRI/AAAAAAAAAIA/DirKnkDNWTI/s1600/backcountry.com-logo-600x266.jpg',
+            title: 'Backcountry.com',
+            text: 'Now you can buy one snowboard and get one FREE through July. Don\'t miss out on this amazing offer.'
+        },
+        {
+            img: 'https://cdn.vox-cdn.com/thumbor/eRcJpqbX2KWmPgutxluc1Ak8oxY=/0x0:2040x1360/1200x800/filters:focal%28857x517:1183x843%29/cdn.vox-cdn.com/uploads/chorus_image/image/60399611/akrales_180614_1777_0229.0.jpg',
+            title: 'Instagram',
+            text: 'Join now with your Facebook account. Connect and share with your friends for free!'
+        }
     ]
 }
 

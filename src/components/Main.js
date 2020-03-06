@@ -11,6 +11,8 @@ import seedData from '../seed.js';
 class Main extends Component{
     render(){
         const userData = seedData.user;
+        const recentlyViewed = seedData.recentlyViewed;
+        const ads = seedData.ads;
         const newsFeed = seedData.posts.map((post, i)=>{
             return <Post key={i} postData={post} />
         });
@@ -24,8 +26,8 @@ class Main extends Component{
                     <Stories />
                     {newsFeed}
                 </div>
-                <div className="col-sm-3">
-                    <Sidebar2 />
+                <div className="col-sm-3" id="sidebar2Main">
+                    <Sidebar2 user={userData} recentlyViewed={recentlyViewed} ads={ads}/>
                 </div>
                 <div className="col-sm-2" id="contactsScroll">
                     <Sidebar3 />
