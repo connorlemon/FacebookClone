@@ -7,7 +7,7 @@ class RecentlyViewed extends Component{
         const rvData = this.props.recentlyViewed;
         console.log(rvData);
         const recentlyViewed = rvData.map((rv, i)=>{
-            return <div><img className="rvImage hoverPointer" src={rv.img} /><h3 className="rvImgText">{rv.price}</h3></div>
+            return <div key={i}><img className="rvImage hoverPointer" src={rv.img} /><h3 className="rvImgText">{rv.price}</h3></div>
             
         })
         return(

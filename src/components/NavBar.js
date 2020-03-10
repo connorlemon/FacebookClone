@@ -10,8 +10,8 @@ class NavBar extends Component{
         return(
             <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light">
                 <ul className="navbar-nav justify-content-center my-0 mx-0">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRight" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRight" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                     <span className="navbar-toggler-icon"></span>
                     </button>
                     
                     <div className="collapse navbar-collapse" id="navbarRight">

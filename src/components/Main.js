@@ -19,7 +19,7 @@ class Main extends Component{
             return <Post key={i} postData={post} />
         });
         return(
-            <div class="row">
+            <div className="row">
                 <div className="col-sm-2" id="sidebar1Main">
                     <Sidebar1 user={userData}/>
                 </div>
