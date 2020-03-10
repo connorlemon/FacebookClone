@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import ContactTab from './ContactTab';
-import seedData from '../seed.js';
 
 class Sidebar3 extends Component{
     render(){
-        const data = seedData.contacts;
+        const data = this.props.contacts;
         const contacts = data.map((contact, i)=>{
             return(
                 <ContactTab key={i} data={contact} />

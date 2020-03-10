@@ -169,8 +169,14 @@ div .col-sm-1 {
 }
 
 .divider {
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 400;
+}
+
+/* Create Post */
+
+#mainScroll{
+  max-width: 550px;
 }
 
 #createInput{
@@ -319,6 +325,7 @@ div .storyArea .container .row{
 
 .story{
   height: 200px;
+  max-width: 123.75px;
   width: 22.5%;
   margin-left: 1%;
   margin-right: 1%;
@@ -622,7 +629,8 @@ div .storyArea .container .row{
 #s3Label{
   font-size: 11px;
   font-weight: 600;
-  padding-left: 4px;
+  margin-top: 12px;
+  padding-left: 6px;
 }
 
 .contact{
@@ -1062,4 +1070,56 @@ h4{
 
 #copyright{
   color: rgb(75, 75, 75);
+}
+
+#mainScroll{
+  min-width: 500px;
+}
+
+.navbar-toggler{
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+  width: 25px;
+}
+
+@media only all and (max-width: 1420px){
+  #contactsScroll{
+    display: none;
+  }
+}
+
+@media only all and (max-width: 1100px){
+  #sidebar1Main{
+    display: none!important;
+  }
+  #searchField{
+    width: 200px;
+  }
+}
+
+@media only all and (max-width: 828px){
+  #sidebar2Main{
+    display: none;
+  }
+  #mainScroll{
+    margin-right: 12px;
+  }
+  #fIconLi{
+    margin-left: -28px;
+  }
+  #searchField{
+    display: none;
+  }
+  #searchSubmit{
+    display: none;
+  }
+  .navText{
+    display: none!important;
+  }
+  .navbar-toggler{
+    display: none;
+  }
 }

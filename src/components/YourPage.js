@@ -16,7 +16,7 @@ class YourPage extends Component{
                     <img className="yourPageUserImg hoverPointer" src={user.yourPageImg} />
                     <div className="postInfo">
                         <h6 className="yourPageUser hoverPointer">{user.yourPageUserName}</h6>
-                        <p className="yourPageSubText hoverPointer"><FontAwesomeIcon className="yourPageIcon" icon={faComments}/>  Mesages</p>
+                        <p className="yourPageSubText hoverPointer"><FontAwesomeIcon className="yourPageIcon" icon={faComments}/>  Messages</p>
                         <p className="yourPageSubText hoverPointer"><FontAwesomeIcon className="yourPageIcon" icon={faGlobeAmericas}/>  Notifications</p>
                     </div>
                 </div>
