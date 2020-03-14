@@ -32,8 +32,8 @@ class YourPage extends Component{
                     <button className="btn btn-primary yourPageBtn2">Posts</button>
                 </div>
                 <div className="yourPageText">
-                    <h4>72,720</h4>
-                    <p id="ypInfoText">512 new likes this week</p>
+                    <h4>72,200</h4>
+                    <p id="ypInfoText">888 new likes this week</p>
                 </div>
                 <div className="createPromoBox">
                     <button className="btn btn-primary yourPageBtn2 promoBtns" id="promoBtn"><FontAwesomeIcon id="ypBtnIcon1" icon={faBullhorn} /> Create Promotion</button>
